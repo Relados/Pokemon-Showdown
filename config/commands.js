@@ -930,6 +930,10 @@ var commands = exports.commands = {
 			matched = true;
 			buffer += "- <a href=\"https://www.smogon.com/forums/threads/3513882/\">PU</a><br />";
 		}
+		if (target === 'haxmons') {
+			matched = true;
+			buffer += "- <a href=\"https://www.smogon.com/forums/threads/haxmons-omotm-september.3500287/\">Haxmons</a><br />";
+		}
 		if (target === 'almostanyability' || target === 'aaa') {
 			matched = true;
 			buffer += "- <a href=\"https://www.smogon.com/forums/threads/3495737/\">Almost Any Ability</a><br />";
